@@ -7,7 +7,7 @@ if(A[i] > A[0]){
 }return A[0];}
 
 void main (){
-  List<int> num = [12,45,7,89,23];
+  List<int> num = [120,450,7,89,23];
   int largest = findlargest(num);
   print(largest);
 }

@@ -1,11 +1,9 @@
 void main(){
 
 for(int i = 1; i <= 50 ; i++){
-int A = 5*i;
-print(A);
-if(i==10){
-  break;
-}
+  if(i%5==0){
+    print(i);
+  }
 }
   
 }
